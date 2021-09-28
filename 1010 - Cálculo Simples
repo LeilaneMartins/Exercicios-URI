@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+
+    int CodPC1, QtdPC1, CodPC2, QtdPC2;
+    double ValorPC1, ValorPC2, Total;
+
+    scanf("%i %i %lf", &CodPC1, &QtdPC1, &ValorPC1);
+
+    scanf("%i %i %lf", &CodPC2, &QtdPC2, &ValorPC2);
+
+    Total = (QtdPC1 * ValorPC1) + (QtdPC2 * ValorPC2);
+
+    printf("VALOR A PAGAR: R$ %.2lf\n", Total);
+
+    return 0;
+}
