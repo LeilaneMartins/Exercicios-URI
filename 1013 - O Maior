@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int A,B,C,MaiorAB;
+
+    scanf("%i%i%i", &A,&B,&C);
+
+    MaiorAB = (A+B+abs(A-B))/2;
+    MaiorAB = (C+MaiorAB+abs(MaiorAB-C))/2;
+
+    printf("%i eh o maior\n",MaiorAB);
+ 
+    return 0;
+}
