@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    float x, cont, soma = 0;
+    int aux;
+
+    for(cont = 1; cont <= 6; cont++){
+        scanf("%f",&x);
+
+        if(x >= 0){
+            aux++;
+            soma = soma + x;
+        }
+    }
+
+    printf("%i valores positivos\n",aux);
+    printf("%.1f\n",soma/aux);
+ 
+    return 0;
+}
