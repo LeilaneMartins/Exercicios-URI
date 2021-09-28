@@ -1,0 +1,19 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int b, g, falta;
+
+    scanf("%i%i",&b,&g);
+
+    if(b >= g/2){
+        printf("Amelia tem todas bolinhas!\n");
+    }
+    else{
+       falta = (g/2) - b;
+
+       printf("Faltam %i bolinha(s)\n",falta);
+    }
+ 
+    return 0;
+}
