@@ -1,0 +1,18 @@
+#include <stdio.h>
+ 
+int main() {
+    
+    int cont,aux = 0,x;
+
+    for(cont = 1; cont <= 5; cont++){
+        scanf("%i",&x);
+
+        if(x % 2 == 0){
+            aux++;
+        }
+    }
+
+    printf("%i valores pares\n",aux);
+ 
+    return 0;
+}
