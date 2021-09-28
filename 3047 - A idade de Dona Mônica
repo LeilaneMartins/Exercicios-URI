@@ -1,0 +1,22 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int m, a, b, c;
+
+    scanf("%i%i%i",&m,&a,&b);
+
+    c = m - (a+b);
+
+    if(a > b && a > c){
+        printf("%i\n",a);
+    }
+    else if(b > a && b > c){
+        printf("%i\n",b);
+    }
+    else{
+        printf("%i\n",c);
+    }
+ 
+    return 0;
+}
