@@ -1,0 +1,20 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int x, anos, meses, dias;
+
+    scanf("%i",&x);
+
+    anos = x/365;
+
+    meses = (x%365)/30;
+
+    dias =  (x%365)%30;
+
+    printf("%i ano(s)\n",anos);
+    printf("%i mes(es)\n",meses);
+    printf("%i dia(s)\n",dias);
+ 
+    return 0;
+}
