@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int a, b, resto;
+
+    scanf("%i%i",&a,&b);
+
+    resto = a%b;
+
+    printf("%i\n",resto);
+ 
+    return 0;
+}
