@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int poder, cont, aux;
+
+    scanf("%i",&aux);
+
+    for(cont = 1; cont <= aux; cont++){
+        scanf("%i",&poder);
+
+        if(poder > 8000){
+            printf("Mais de 8000!\n");
+        }
+        else{
+            printf("Inseto!\n");
+        }
+    }
+ 
+    return 0;
+}
